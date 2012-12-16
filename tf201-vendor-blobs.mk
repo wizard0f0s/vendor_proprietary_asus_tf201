@@ -52,10 +52,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/sensors6050.cardhu.so:system/lib/hw/sensors6050.cardhu.so \
     vendor/asus/tf201/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-    vendor/asus/tf201/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
+#    vendor/asus/tf201/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/sensors.cardhu.so:system/lib/hw/sensors.cardhu.so \
     vendor/asus/tf201/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    vendor/asus/tf201/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
+#    vendor/asus/tf201/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/sensors_generic.cardhu.so:system/lib/hw/sensors_generic.cardhu.so \
     vendor/asus/tf201/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
@@ -120,7 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
     vendor/asus/tf201/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
     vendor/asus/tf201/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
-    vendor/asus/tf201/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+#    vendor/asus/tf201/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/asus/tf201/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
     vendor/asus/tf201/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
     vendor/asus/tf201/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
