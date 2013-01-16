@@ -20,9 +20,7 @@
 #    vendor/asus/tf201/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
 #    vendor/asus/tf201/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
 #    vendor/asus/tf201/proprietary/lib/libseccameraadaptor.so:obj/lib/libseccameraadaptor.so
-#    vendor/asus/tf201/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
 #    vendor/asus/tf201/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-#    vendor/asus/tf201/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
 
 PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/bin/sensors-config:system/bin/sensors-config \
@@ -62,6 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/asus/tf201/proprietary/lib/hw/lights.cardhu.so:system/lib/hw/lights.cardhu.so \
     vendor/asus/tf201/proprietary/lib/hw/gpsdongle.tegra.so:system/lib/hw/gpsdongle.tegra.so \
+    vendor/asus/tf201/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
+    vendor/asus/tf201/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/asus/tf201/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/asus/tf201/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
     vendor/asus/tf201/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
